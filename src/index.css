@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.full-screen {
+  @apply h-[150vh] w-screen;
+}
+
+.default-bg {
+  @apply bg-neutral-950;
+}
+
+.default-text {
+  @apply text-neutral-50;
+}
+
+.default-gap {
+  @apply gap-6;
+}
+
+.default-p {
+  @apply px-4 py-2;
+}
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-column {
+  @apply flex flex-col;
+}
+
+.default-card {
+  @apply flex-center aspect-square default-bg border-2 rounded-lg default-p border-neutral-50 border-opacity-10 md:min-w-max;
+}
+
